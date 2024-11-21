@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Books - Book Recommendation System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="discover.html">Discover Books</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <section class="review-container">
+        <div class="review-box">
+            <h2>Review a Book</h2>
+            <form action="#">
+                <div class="input-field">
+                    <label for="book-name">Book Name</label>
+                    <input type="text" id="book-name" name="book-name" placeholder="Enter the book name" required>
+                </div>
+                <div class="input-field">
+                    <label for="rating">Rating</label>
+                    <select id="rating" name="rating" required>
+                        <option value="5">5 Stars</option>
+                        <option value="4">4 Stars</option>
+                        <option value="3">3 Stars</option>
+                        <option value="2">2 Stars</option>
+                        <option value="1">1 Star</option>
+                    </select>
+                </div>
+                <div class="input-field">
+                    <label for="review">Your Review</label>
+                    <textarea id="review" name="review" placeholder="Write your review here..." rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit Review</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Book Recommendation System</p>
+    </footer>
+</body>
+</html>

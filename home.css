@@ -1,0 +1,112 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7; /* Background color */
+    color: #333333; /* Text color */
+}
+
+/* General navigation bar styling for Home and Discover pages */
+/* Navigation Bar */
+header nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0A2D37;
+    padding: 15px 0;
+}
+
+header nav a {
+    color: #F5B800;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #F5B800;
+    color: #0A2D37;
+}
+
+/* Home Page Styles */
+.home-container {
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+
+.home-box {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #0A2D37; /* Primary color (Dark Blue) */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555555; /* Dark Gray for body text */
+    line-height: 1.6;
+}
+
+.developer-section {
+    margin-top: 50px;
+}
+
+.developer-section h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: #0A2D37; /* Primary color (Dark Blue) */
+}
+
+.developer-boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.developer-box {
+    background-color: #F5F5F5; /* Accent color (Light Gray) */
+    padding: 20px;
+    width: 22%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.developer-box:hover {
+    transform: scale(1.05);
+}
+
+.developer-box img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.developer-box h4 {
+    font-size: 1.5rem;
+    color: #0A2D37; /* Primary color (Dark Blue) */
+}
+
+.developer-box p {
+    color: #555555; /* Dark Gray for body text */
+    font-size: 1rem;
+}
+/* Footer Styles */
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0A2D37;
+    color: #F5B800;
+}
